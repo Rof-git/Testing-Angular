@@ -1,0 +1,11 @@
+<div *ngIf="hero$ | async as hero">
+  <div class="background">
+  <div class="center"><h2>{{hero.name | uppercase}} Details</h2></div>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label for="hero-name">Hero name: </label>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="name"/>
+  </div>
+  </div>
+  <button type="button" (click)="gotoHeroes(hero)">Back</button>
+</div>

@@ -1,0 +1,22 @@
+input {
+  padding: .5rem;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(182, 229, 241);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+* {
+    font-size: 35px;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+}
