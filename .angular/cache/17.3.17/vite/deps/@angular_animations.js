@@ -13,8 +13,8 @@ import {
   ɵɵdefineInjectable,
   ɵɵinject
 } from "./chunk-IGJZNA3K.js";
-import "./chunk-V4GYEGQC.js";
 import "./chunk-CONQKHOI.js";
+import "./chunk-V4GYEGQC.js";
 import "./chunk-GC5FLHL6.js";
 
 // node_modules/@angular/animations/fesm2022/animations.mjs
